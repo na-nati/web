@@ -32,7 +32,6 @@ const About = () => {
     { name: 'HTML5', icon: 'fab fa-html5', color: 'text-orange-500' },
     { name: 'JavaScript', icon: 'fab fa-js', color: 'text-yellow-400' },
     { name: 'Git', icon: 'fab fa-git-alt', color: 'text-red-500' },
-    { name: 'VSCode', icon: 'fas fa-code', color: 'text-indigo-400' },
     { name: 'Figma', icon: 'fab fa-figma', color: 'text-pink-400' },
   ];
 
@@ -53,7 +52,7 @@ const About = () => {
       
       <div className="absolute inset-10 z-0 pointer-events-none opacity-80 font-Mightail">
         {[
-          'React', 'Tailwind', 'CSS', 'HTML', 'JavaScript', 'Git', 'VSCode',
+          'React', 'Tailwind', 'CSS', 'HTML', 'JavaScript', 'Git', 
           'React', 'Tailwind', 'Figma'
         ].map((tech, i) => {
           const positions = [
@@ -92,8 +91,8 @@ const About = () => {
           <div className="text-center md:text-left text-gray-400 max-w-lg" data-aos="fade-right">
             <h2 className="text-2xl font-bold text-white mb-4">Hi, I'm Nanati Getachew</h2>
             <p className="text-sm mb-4">
-              I'm a passionate frontend developer with a deep interest in web technologies and UI/UX design.
-              My focus is on creating beautiful, responsive, and user-friendly websites that provide the best user experience.
+              I am a fourth-year student at Adama Science and Technology, 
+              passionate about frontend development with a deep interest in web technologies and UI/UX design.
             </p>
             <p className="text-sm mb-4">
               I have experience with modern frontend frameworks like React, TailwindCSS, and JavaScript, and I love keeping up-to-date with the latest trends in web development.
