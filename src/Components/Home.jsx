@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import profile from "../assets/profile.png";
+import profile from "../assets/profile.jpg";
 import {
   FaReact, FaCss3Alt, FaJs, FaHtml5, FaGithub,
   FaDribbble, FaPython, FaNodeJs, FaKey, FaFigma, FaTelegram, FaLinkedin ,

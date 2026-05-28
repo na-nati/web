@@ -91,7 +91,7 @@ const About = () => {
           <div className="text-center md:text-left text-gray-400 max-w-lg" data-aos="fade-right">
             <h2 className="text-2xl font-bold text-white mb-4">Hi, I'm Nanati Getachew</h2>
             <p className="text-sm mb-4">
-              I am a fourth-year student at Adama Science and Technology, 
+              I am a fifth-year student at Adama Science and Technology, 
               passionate about frontend development with a deep interest in web technologies and UI/UX design.
             </p>
             <p className="text-sm mb-4">
