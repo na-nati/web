@@ -6,7 +6,19 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   base: "/portfolio",
   plugins: [
-    
     tailwindcss(),
-    react()],
+    react()
+  ],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          // This isolates third-party libraries into a 'vendor' chunk
+          if (id.includes('node_modules')) {
+            return 'vendor';
+          }
+        }
+      }
+    }
+  }
 })
